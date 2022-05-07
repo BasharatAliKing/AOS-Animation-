@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Tapestry&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(173, 250, 224);
+    }
+
+    #king {
+width: 500px;
+        display: flex;
+        font-size: 60px;
+        letter-spacing: 3px;
+        color: rgb(243, 17, 9);
+        font-family: 'Tapestry', cursive;
+        margin: 50px auto;
+        background-color: rgb(0, 255, 170);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #king li {
+
+        display: flex;
+    }
+
+    #king .i {
+        margin-left: 15px;
+    }
+
+    #king .h {
+        margin-left: 15px;
+    }
+</style>
+
+<body>
+    <div id="king">
+
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+
+        var king = document.getElementById("king");
+        var createElement = document.createElement("li");
+        createElement.className = "k";
+        var createTextNode = document.createTextNode("H");
+        createElement.appendChild(createTextNode);
+        // console.log(createElement)
+        var ic = document.createElement("li")
+        var i = document.createTextNode("e");
+        ic.appendChild(i);
+
+        var ni = document.createElement("li");
+        var n = document.createTextNode("l");
+        ni.appendChild(n);
+
+        var gi = document.createElement("li");
+        var g = document.createTextNode("o");
+        gi.appendChild(g);
+
+        var ii = document.createElement("li");
+        ii.className = "i";
+        var iii = document.createTextNode("B");
+        ii.appendChild(iii);
+        var is = document.createElement("li");
+        var s = document.createTextNode("D");
+        is.appendChild(s);
+
+        var hi = document.createElement("li");
+        hi.className = "h";
+        var h = document.createTextNode("K");
+        hi.appendChild(h);
+        var ei = document.createElement("li");
+        var e = document.createTextNode("I");
+        ei.appendChild(e);
+
+        var ri = document.createElement("li");
+        var r = document.createTextNode("N");
+        ri.appendChild(r);
+
+        var eei = document.createElement("li");
+        var ee = document.createTextNode("G");
+        eei.appendChild(ee);
+
+        setTimeout(() => {
+
+            king.appendChild(createElement)
+        }, 1000);
+        setTimeout(() => {
+            king.appendChild(ic)
+        }, 2000);
+        setTimeout(() => {
+            king.appendChild(ni)
+        }, 3000);
+        setTimeout(() => {
+            king.appendChild(gi)
+        }, 4000);
+        setTimeout(() => {
+            king.appendChild(ii)
+        }, 5000);
+        setTimeout(() => {
+            king.appendChild(is);
+        }, 6000);
+        setTimeout(() => {
+            king.appendChild(hi);
+        }, 7000);
+        setTimeout(() => {
+            king.appendChild(ei);
+        }, 8000);
+        setTimeout(() => {
+            king.appendChild(ri);
+        }, 9000);
+        setTimeout(() => {
+            king.appendChild(eei)
+        }, 10000);
+    </script>
+
+</body>
+
+</html>
