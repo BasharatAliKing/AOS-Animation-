@@ -30,6 +30,26 @@ width: 500px;
         padding: 10px;
         border-radius: 10px;
     }
+    #king li{
+        animation: king  1s ;
+    }
+    @keyframes king{
+        0%{
+            margin-left: -40px;
+        }
+        /* 25%{
+            margin-left: -15px;
+        }
+        50%{
+            margin-left: -10px;
+        }
+        75%{
+            margin-left: -5px;
+        } */
+        100%{
+            margin-left: 0px;
+        }
+    }
 
     #king li {
 
@@ -100,34 +120,34 @@ width: 500px;
         setTimeout(() => {
 
             king.appendChild(createElement)
-        }, 1000);
+        }, 500);
         setTimeout(() => {
             king.appendChild(ic)
-        }, 2000);
+        }, 1000);
         setTimeout(() => {
             king.appendChild(ni)
-        }, 3000);
+        }, 1500);
         setTimeout(() => {
             king.appendChild(gi)
-        }, 4000);
+        }, 2000);
         setTimeout(() => {
             king.appendChild(ii)
-        }, 5000);
+        }, 2500);
         setTimeout(() => {
             king.appendChild(is);
-        }, 6000);
+        }, 3000);
         setTimeout(() => {
             king.appendChild(hi);
-        }, 7000);
+        }, 3500);
         setTimeout(() => {
             king.appendChild(ei);
-        }, 8000);
+        }, 4000);
         setTimeout(() => {
             king.appendChild(ri);
-        }, 9000);
+        }, 4500);
         setTimeout(() => {
             king.appendChild(eei)
-        }, 10000);
+        }, 5000);
     </script>
 
 </body>
